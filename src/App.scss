@@ -1,0 +1,58 @@
+body {
+background: rgb(93, 119, 71);
+color: rgb(218, 219, 138);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Modules{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+.Keyboard{
+    margin-left: 1.5rem;
+    width:450px;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+
+.control{
+    background: rgb(19, 87, 40);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 2.5rem;
+    h3{
+        width:100%;
+        text-align: center;
+        margin: 0.3rem;
+    }
+    input{
+        width:15rem;
+    }    
+    button{
+        font-size: 1.2rem;
+        background: rgb(129, 187, 118);
+        color: rgb(43, 6, 6);
+        padding:.5rem;
+        margin: .5rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border-radius: 1.5rem;
+        &:hover{
+            background: rgb(187, 153, 130);
+        } 
+          
+    }   
+    .active{
+        background: rgb(54, 40, 31);
+        color:wheat;
+    }
+    
+}
